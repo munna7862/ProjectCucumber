@@ -1,0 +1,87 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-03T05:12:51.187Z",
+        "line": 6,
+        "name": "Test scenario",
+        "description": "",
+        "id": "test-feature;test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1828600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I want to write a given statement",
+            "match": {
+              "location": "stepdefinitions.TestCucumber.i_want_to_write_a_given_statement()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "some other and Statements",
+            "match": {
+              "location": "stepdefinitions.TestCucumber.some_other_and_statements()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1055900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I complete the when statement",
+            "match": {
+              "location": "stepdefinitions.TestCucumber.i_complete_the_when_statement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I validate the then statement",
+            "match": {
+              "location": "stepdefinitions.TestCucumber.i_validate_the_then_statement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "test-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.216">
+    <testcase classname="Test feature" name="Test scenario" time="0.07">
+        <system-out>
+            <![CDATA[Given I want to write a given statement.....................................passed
+And some other and Statements...............................................passed
+When I complete the when statement..........................................passed
+Then I validate the then statement..........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
